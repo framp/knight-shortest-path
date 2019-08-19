@@ -164,7 +164,7 @@ getShortestPath size from to =
       , (x - 1, y - 2)
       ]
     heuristic :: Cell -> Int
-    heuristic (x, y) = 0 -- isqrt $(toX - x) ^ 2 + (toY - y) ^ 2
+    heuristic (x, y) = isqrt $(toX - x) ^ 2 + (toY - y) ^ 2
       where
         (toX, toY) = to
         isqrt :: Int -> Int
