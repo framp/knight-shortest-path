@@ -39,7 +39,7 @@ stack runhaskell knight.hs 8 8 < test > bfs-solution  3.78s user 0.20s system 10
 Using `BFS` the program couldn't traverse a 10000x10000 cells board after 131s (and I decided to kill it).
 
 The same problem was solved in 1.54s using `A*`:
-```
+```bash
 λ ~/knight-shortest-path/ time echo "A1 OUP10000" | stack runhaskell knight.hs 10000 10000 > /dev/null
 echo "A1 OUP10000"  0.00s user 0.00s system 56% cpu 0.002 total
 stack runhaskell knight.hs 10000 10000 > /dev/null  1.54s user 0.15s system 102% cpu 1.654 total
