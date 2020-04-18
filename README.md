@@ -49,5 +49,5 @@ echo "A1 OUP10000"  0.00s user 0.00s system 49% cpu 0.002 total
 stack runhaskell knight.hs 10000 10000 > /dev/null  131.03s user 0.65s system 99% cpu 2:11.95 total
 ```
 
-### TODO (aka possible improvements I will probably never touch again)
+### TODO (aka possible improvements I will probably never do)
  - Return all the shortest paths?
